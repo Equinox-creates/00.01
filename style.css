@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'pooping', sans-serif;
+    box-sizing: border-box;
+}
+@media (max-width: 900px){
+.nav-bar{
+    padding: 10px 1%;
+    justify-content: space-between;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+    background: linear-gradient(155deg, #ff98ee , #d5b0ff);
+    box-shadow: 0 0 20px rgb(234, 131, 255);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+.nav-bar h1{
+    color: rgb(255, 255, 255);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 150%;
+    margin-left: 50px;
+}
+.nav-bar h1::before{
+    color: #7700ff;
+}
+.nav-bar h1::after{
+    color: #a95dff;
+}
+.video1 video{
+    width:85%;
+    margin: 25px;
+    border-radius: 10px;
+    border: 2px solid #f6b0ff;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.534);
+}
+.video1{
+    border-radius: 5px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.048);
+    animation: fill  1s linear 1s reverse ;
+}
+@keyframes fill {
+    0%{
+        background-color: rgb(184, 184, 184);
+    }
+    100%{
+        background-color: rgb(97, 97, 97);
+    }
+}
+.video1 h4{
+    color: #ff98ee;
+    margin-left: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.video1 button{
+    padding: 5px;
+    margin: 10px;
+    border-radius: 35px;
+    background: linear-gradient(155deg, #ff98ee , #d5b0ff);
+    outline: 0;
+    border: 1px solid rgb(234, 131, 255);
+    box-shadow: 0 3px 3px rgba(234, 131, 255, 0.37);
+}
+.video1 button:hover{
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.329);
+}
+}
+body{
+    color: aliceblue;
+}
